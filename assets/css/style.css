@@ -215,3 +215,20 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media (max-width:640px ){
+  #masthead{
+      max-width: 100%;
+      position: static;
+  }
+  nav{
+    margin-right:20px;
+  }
+}
+
+@media (max-width:768px) {
+  #masthead{
+    max-width: 100%;
+    position: static;
+  }
+}
